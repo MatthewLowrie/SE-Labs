@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "script3.js"></script>
+        <meta charset="UTF-8" />
+        <title>My Changing Web Page!</title>
+        <script>
+            function change() {
+                doccument.getElementById("my_text").innerHTML = "You Clicked me";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            Click the button!
+        </h1>
+        <input type="button" value="Click me!" onclick="change()">
+        <p id="my_text">
+            Hello, world!
+        </p>
+    </body>
+</html>
